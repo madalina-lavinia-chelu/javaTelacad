@@ -29,9 +29,12 @@ public class Main {
         System.out.println("ultimul termen " + myLinkedList.peekLast());
 
         //poll -> preia valoarea si il elimina
-        System.out.println("preia si sterge primul termen " + myLinkedList.poll());
+        System.out.println("preia si sterge primul termen (poll)" + myLinkedList.poll());
         //System.out.println("preia si sterge primul termen " + myLinkedList.pollFirst()); // poll si pollFirst sunt similare
-        System.out.println("preia si elimina ultimul termen " + myLinkedList.pollLast());
+        System.out.println("preia si elimina ultimul termen  " + myLinkedList.pollLast());
+        System.out.println("lista actualizata " + myLinkedList);
+
+        System.out.println("elimina primul termen si il afiseaza (pop) " + myLinkedList.pop());
         System.out.println("lista actualizata " + myLinkedList);
 
     }
