@@ -28,7 +28,12 @@ public class Main {
         System.out.println("primul termen " + myLinkedList.peekFirst());
         System.out.println("ultimul termen " + myLinkedList.peekLast());
 
-        //poll -> preia valoarea si il elimina
+        /*
+            poll -> preia valoarea si il elimina
+            poll() este metoda standard utilizată în cadrul interfeței Queue, deoarece se conformează regulilor
+            unei cozi (queue), unde se obține și se elimină doar elementul din frunte
+
+        */
         System.out.println("preia si sterge primul termen (poll)" + myLinkedList.poll());
         //System.out.println("preia si sterge primul termen " + myLinkedList.pollFirst()); // poll si pollFirst sunt similare
         System.out.println("preia si elimina ultimul termen  " + myLinkedList.pollLast());
@@ -36,6 +41,8 @@ public class Main {
 
         System.out.println("elimina primul termen si il afiseaza (pop) " + myLinkedList.pop());
         System.out.println("lista actualizata " + myLinkedList);
+
+
 
     }
 }
