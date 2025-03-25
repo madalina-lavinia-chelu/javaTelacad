@@ -4,6 +4,7 @@ package com.company;
 public class Punct {
     int x;
     int y;
+
     Punct(int x, int y){
         this.x = x;
         this.y = y;
@@ -28,5 +29,8 @@ public class Punct {
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+    public Punct getPunct(){
+        return this;
     }
 }

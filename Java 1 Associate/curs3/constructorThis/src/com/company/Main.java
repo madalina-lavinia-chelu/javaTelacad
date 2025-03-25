@@ -8,5 +8,7 @@ public class Main {
         System.out.println(p1.adunare1(p1.x, p1.y));
 
         System.out.println(p2);
+
+        System.out.println(p1.getPunct());
     }
 }
