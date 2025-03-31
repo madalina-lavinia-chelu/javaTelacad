@@ -1,3 +1,4 @@
+/*
 package com.company.SistemDeGestionareAUnuiLantHotelier;
 
 public class CameraSingle extends Camera implements Rezervabil, Plata {
@@ -15,3 +16,4 @@ public class CameraSingle extends Camera implements Rezervabil, Plata {
         System.out.println("Camera Single a fost anulata.");
     }
 }
+*/
